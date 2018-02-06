@@ -11,15 +11,13 @@ namespace InheritanceAndPolymorphismPractice
         static void Main(string[] args)
         {
 
+            //cannot instantiate an appliance
 
-            Standard gymMember1 = new Standard(100);
+            Microwave myMicrowave = new Microwave(1000, "Samsung");
+            Dishwasher myDishwasher = new Dishwasher(0, true);
 
-            VIP gymMember2 = new VIP();
-
-            gymMember1.Activate();
-            gymMember2.Activate();
-
-
+            myMicrowave.Work();
+            myDishwasher.Work();
 
 
 
@@ -28,17 +26,12 @@ namespace InheritanceAndPolymorphismPractice
 
 
 
+            //Standard gymMember1 = new Standard(100);
 
+            //VIP gymMember2 = new VIP();
 
-
-
-
-
-
-
-
-
-
+            //gymMember1.Activate();
+            //gymMember2.Activate();
 
 
 
