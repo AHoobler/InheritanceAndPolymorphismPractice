@@ -44,10 +44,13 @@
   <ItemGroup>
     <Compile Include="DeathEater.cs" />
     <Compile Include="HogwartsStudent.cs" />
+    <Compile Include="Membership.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rectangle.cs" />
     <Compile Include="Shape.cs" />
+    <Compile Include="Standard.cs" />
+    <Compile Include="VIP.cs" />
     <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
